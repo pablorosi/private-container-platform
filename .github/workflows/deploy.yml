@@ -17,7 +17,7 @@ jobs:
         with:
           oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
-          tags: tag:github-action
+          tags: tag:ci
           
       - name: Harbor Login
         uses: docker/login-action@v3
